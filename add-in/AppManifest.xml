@@ -7,7 +7,7 @@
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
-    <Title>RymanPolicies.AddIn</Title>
+    <Title>Policies</Title>
     <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 

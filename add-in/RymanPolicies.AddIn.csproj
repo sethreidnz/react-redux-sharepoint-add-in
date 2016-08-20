@@ -22,6 +22,7 @@
     <WorkflowPartId>{51cb7142-9807-4c40-8adf-7e587691d444}</WorkflowPartId>
     <CspkgPartId>{4b39f734-37ac-47ca-80ad-a25c6296d224}</CspkgPartId>
     <SqlPackagePartId>{09bdd94f-2bc5-428f-8936-abb0f0e4474d}</SqlPackagePartId>
+    <PreDeploymentCommand>npm run build</PreDeploymentCommand>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

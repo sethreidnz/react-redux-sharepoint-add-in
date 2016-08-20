@@ -1,0 +1,12 @@
+{
+  "name": "ryman-policies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Pages/default.ascx",
+  "scripts": {
+    "build": "cd .. && npm run deploy:prod"
+  },
+  "author": "Seth Rei",
+  "license": "UNLICENCED"
+, "-vs-binding":{"BeforeBuild":["build"]}
+}
