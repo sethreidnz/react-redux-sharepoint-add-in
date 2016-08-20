@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="Scripts">
-    <File Path="Scripts\1.counter.js" Url="Scripts/1.counter.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\app.css" Url="Scripts/app.css" ReplaceContent="TRUE" />
-    <File Path="Scripts\vendor.js" Url="Scripts/vendor.js" ReplaceContent="TRUE" />
-  </Module>
-</Elements>

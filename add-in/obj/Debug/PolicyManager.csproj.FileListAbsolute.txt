@@ -1,6 +1,0 @@
-c:\dev\PoliciesManager\PolicyManager\bin\Debug\PolicyManager.pdb
-c:\dev\PoliciesManager\PolicyManager\obj\Debug\PolicyManager.dll
-c:\dev\PoliciesManager\PolicyManager\obj\Debug\PolicyManager.pdb
-C:\dev\PoliciesManager\add-in\bin\Debug\PolicyManager.pdb
-C:\dev\PoliciesManager\add-in\obj\Debug\PolicyManager.dll
-C:\dev\PoliciesManager\add-in\obj\Debug\PolicyManager.pdb
