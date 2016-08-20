@@ -19,7 +19,8 @@ const config = {
   // ----------------------------------
   path_base  : path.resolve(__dirname, '..'),
   dir_client : 'src',
-  dir_dist   : 'add-in/Scripts',
+  dir_dist   : 'dist',
+  dir_publish: 'add-in/Scripts',
   dir_server : 'server',
   dir_test   : 'tests',
 
@@ -113,7 +114,8 @@ const base = (...args) =>
 config.utils_paths = {
   base   : base,
   client : base.bind(null, config.dir_client),
-  dist   : base.bind(null, config.dir_dist)
+  dist   : base.bind(null, config.dir_dist),
+  publish: base.bind(null, config.dir_publish)
 }
 
 // ========================================================

@@ -17,6 +17,8 @@ const paths = config.utils_paths
     }
     debug('Copy static assets to dist folder.')
     fs.copySync(paths.client('static'), paths.dist())
+    debug('Copy compiled output to to SharePoint Add-In.')
+    fs.copySync(paths.dist(), paths.publish())
   } catch (e) {
     debug('Compiler encountered an error.', e)
     process.exit(1)
