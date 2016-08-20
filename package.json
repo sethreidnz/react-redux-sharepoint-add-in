@@ -153,4 +153,5 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.6.0"
   }
+, "-vs-binding":{"BeforeBuild":["deploy:prod"]}
 }

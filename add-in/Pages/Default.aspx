@@ -9,19 +9,19 @@
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <meta name="WebPartPageExpansion" content="full" />
-    <link href="../Content/app.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../Content/app.css" />
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Policies
+    React Redux Sharepoint Add-In
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div id="root" style="height: 100%"></div>
+    <div id="root"></div>
     <script type="text/javascript" src="../Content/vendor.js"></script>
-    <script type="text/javascript" src="../Content/app.js"></script>
+    <script type="text/javascript" src="../Content/app.js"><</script>
 
 </asp:Content>

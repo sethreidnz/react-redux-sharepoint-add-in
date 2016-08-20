@@ -2,11 +2,10 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
-    <ProjectItemFile Source="AppIcon.png" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="app.css" Target="Content\" Type="ElementFile" />
-    <ProjectItemFile Source="app.css.map" Target="Content\" Type="ElementFile" />
-    <ProjectItemFile Source="app.js" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="app.js.map" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="app.js" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="app.css.map" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="vendor.js" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="vendor.js.map" Target="Content\" Type="ElementFile" />
   </Files>

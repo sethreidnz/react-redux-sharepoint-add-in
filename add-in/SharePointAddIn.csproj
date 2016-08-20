@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E635864C-E3EE-497E-AA4A-E3514A103CC1}</ProjectGuid>
+    <ProjectGuid>{AF72FBA3-5EE0-4442-BC76-C2BE777E75A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RymanPolicies.AddIn</RootNamespace>
-    <AssemblyName>RymanPolicies.AddIn</AssemblyName>
+    <RootNamespace>SharePointAddIn</RootNamespace>
+    <AssemblyName>SharePointAddIn</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>16.1</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -17,12 +17,11 @@
     <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
     <ProjectMode>SharePointApp</ProjectMode>
-    <AppFeaturePartId>{e5c4b82c-1e60-43e8-8e24-2daca0b6a665}</AppFeaturePartId>
-    <WspPartId>{839a8ee4-eb6d-4336-8322-5314476fd71c}</WspPartId>
-    <WorkflowPartId>{51cb7142-9807-4c40-8adf-7e587691d444}</WorkflowPartId>
-    <CspkgPartId>{4b39f734-37ac-47ca-80ad-a25c6296d224}</CspkgPartId>
-    <SqlPackagePartId>{09bdd94f-2bc5-428f-8936-abb0f0e4474d}</SqlPackagePartId>
-    <PreDeploymentCommand>npm run build</PreDeploymentCommand>
+    <AppFeaturePartId>{0c4ca990-5dc6-4136-838e-04703996a590}</AppFeaturePartId>
+    <WspPartId>{176446c9-c8f6-4100-be19-89034207f648}</WspPartId>
+    <WorkflowPartId>{4798626e-3de0-4668-88b3-e289da32e11e}</WorkflowPartId>
+    <CspkgPartId>{9588e8da-f707-4546-98d5-673cc2e453a6}</CspkgPartId>
+    <SqlPackagePartId>{ee583c87-5bc4-4b4b-b025-1e14228f90b8}</SqlPackagePartId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,34 +43,34 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Content\app.css.map" />
+    <None Include="Content\app.js.map" />
+    <None Include="Content\vendor.js.map" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{350ed645-9a2f-4a04-9e04-b50f2d0e2113}</SharePointProjectItemId>
+      <SharePointProjectItemId>{781d1b48-a701-49d0-9dd6-3d67d2fc83b8}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\app.css" />
+    <Content Include="Content\app.js" />
+    <Content Include="Content\vendor.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
-    <None Include="SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{bf16c4ca-82f9-4e20-a427-19477cf5300b}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
-    <Content Include="Content\Elements.xml" />
     <None Include="Content\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8042924f-ae85-422e-8ff9-45b40017b4e4}</SharePointProjectItemId>
+      <SharePointProjectItemId>{0b58fb42-a0d2-4961-abee-1955102dc87d}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Package\Package.package">
-      <PackageId>{e57cb336-75b6-44ae-857c-78182d691300}</PackageId>
+      <PackageId>{c4f8e47b-36fb-44e8-93d3-ccfa459ff01c}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{2d5cb2f6-e222-4a9f-ad20-d205bff36f8e}</FeatureId>
+      <FeatureId>{61a6d794-2206-4595-b5c5-d05bb799a779}</FeatureId>
     </None>
     <None Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>

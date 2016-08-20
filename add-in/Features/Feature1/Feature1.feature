@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2d5cb2f6-e222-4a9f-ad20-d205bff36f8e" description="SharePoint Add-in Feature" featureId="2d5cb2f6-e222-4a9f-ad20-d205bff36f8e" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="RymanPolicies.AddIn Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="61a6d794-2206-4595-b5c5-d05bb799a779" description="SharePoint Add-in Feature" featureId="61a6d794-2206-4595-b5c5-d05bb799a779" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="SharePointAddIn Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
   <projectItems>
-    <projectItemReference itemId="350ed645-9a2f-4a04-9e04-b50f2d0e2113" />
-    <projectItemReference itemId="8042924f-ae85-422e-8ff9-45b40017b4e4" />
-    <projectItemReference itemId="bf16c4ca-82f9-4e20-a427-19477cf5300b" />
+    <projectItemReference itemId="781d1b48-a701-49d0-9dd6-3d67d2fc83b8" />
+    <projectItemReference itemId="0b58fb42-a0d2-4961-abee-1955102dc87d" />
   </projectItems>
 </feature>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package dslVersion="1.0.0.0" 
-        Id="e57cb336-75b6-44ae-857c-78182d691300" 
-        solutionId="e57cb336-75b6-44ae-857c-78182d691300" 
+        Id="c4f8e47b-36fb-44e8-93d3-ccfa459ff01c" 
+        solutionId="c4f8e47b-36fb-44e8-93d3-ccfa459ff01c" 
         xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="RymanPolicies.AddIn"
+        name="SharePointAddIn"
         sharePointProductVersion="16.0">
   <features>
-        <featureReference itemId="2d5cb2f6-e222-4a9f-ad20-d205bff36f8e" />
+        <featureReference itemId="61a6d794-2206-4595-b5c5-d05bb799a779" />
   </features>
 </package>
