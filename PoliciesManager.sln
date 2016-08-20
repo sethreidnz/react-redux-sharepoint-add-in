@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RymanPolicies.AddIn", "add-in\RymanPolicies.AddIn.csproj", "{E635864C-E3EE-497E-AA4A-E3514A103CC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.Add-In", "add-in\SharePoint.Add-In.csproj", "{E635864C-E3EE-497E-AA4A-E3514A103CC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
