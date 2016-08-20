@@ -9,6 +9,7 @@
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <meta name="WebPartPageExpansion" content="full" />
+    <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <link rel="stylesheet" type="text/css" href="../Content/app.css" />
 </asp:Content>
 
