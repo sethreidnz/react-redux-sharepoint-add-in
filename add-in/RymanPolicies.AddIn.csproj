@@ -43,17 +43,26 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Scripts\index.html" />
+    <Content Include="Scripts\vendor.js" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{350ed645-9a2f-4a04-9e04-b50f2d0e2113}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\1.counter.js.map" />
+    <None Include="Scripts\app.css.map" />
+    <None Include="Scripts\app.js.map" />
+    <None Include="Scripts\vendor.js.map" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{09bdd94f-2bc5-428f-8936-abb0f0e4474d}</SharePointProjectItemId>
     </None>
+    <Content Include="Scripts\1.counter.js" />
+    <Content Include="Scripts\app.css" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
