@@ -19,7 +19,7 @@ const config = {
   // ----------------------------------
   path_base  : path.resolve(__dirname, '..'),
   dir_client : 'src',
-  dir_dist   : 'dist',
+  dir_dist   : 'add-in/Scripts',
   dir_server : 'server',
   dir_test   : 'tests',
 
@@ -34,7 +34,6 @@ const config = {
   // ----------------------------------
   compiler_css_modules     : true,
   compiler_devtool         : 'source-map',
-  compiler_hash_type       : 'hash',
   compiler_fail_on_warning : false,
   compiler_quiet           : false,
   compiler_public_path     : '/',
