@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
+    <File Path="Scripts\vendor.js.map" Url="Scripts/vendor.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\1.counter.js" Url="Scripts/1.counter.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\1.counter.js.map" Url="Scripts/1.counter.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\app.css" Url="Scripts/app.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.css.map" Url="Scripts/app.css.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js.map" Url="Scripts/app.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\index.html" Url="Scripts/index.html" ReplaceContent="TRUE" />
     <File Path="Scripts\vendor.js" Url="Scripts/vendor.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

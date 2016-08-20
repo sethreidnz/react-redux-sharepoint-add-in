@@ -8,21 +8,20 @@
 
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
-
-    <!-- Add your CSS styles to the following file -->
-    <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link href="../Scripts/app.css" rel="stylesheet" />
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Page Title
+    Ryman Policies
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <div id="root"></div>
-    <script type="text/javascript" src="../Scripts/vendor.js"> </script>
+
+    <div id="root" style="height: 100%"></div>
+    <script type="text/javascript" src="../Scripts/vendor.js"></script>
     <script type="text/javascript" src="../Scripts/app.js"></script>
+
 </asp:Content>

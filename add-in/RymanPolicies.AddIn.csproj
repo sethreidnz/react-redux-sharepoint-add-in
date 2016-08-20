@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F4B2838-5C00-4443-862D-DC943122F963}</ProjectGuid>
+    <ProjectGuid>{E635864C-E3EE-497E-AA4A-E3514A103CC1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PolicyManager</RootNamespace>
-    <AssemblyName>PolicyManager</AssemblyName>
+    <RootNamespace>RymanPolicies.AddIn</RootNamespace>
+    <AssemblyName>RymanPolicies.AddIn</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>16.1</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -17,11 +17,11 @@
     <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
     <ProjectMode>SharePointApp</ProjectMode>
-    <AppFeaturePartId>{259a5a78-9395-42dc-9810-e0abb65bc771}</AppFeaturePartId>
-    <WspPartId>{307249ac-b2c4-4317-aee3-3eb8ba0102df}</WspPartId>
-    <WorkflowPartId>{82c813a4-cc5b-45e7-b0c2-f58bec74ba25}</WorkflowPartId>
-    <CspkgPartId>{c337b48a-7a8d-48cb-a5a0-af3971893bf8}</CspkgPartId>
-    <SqlPackagePartId>{bda965a1-4c68-4395-a950-d9e818cd8e42}</SqlPackagePartId>
+    <AppFeaturePartId>{e5c4b82c-1e60-43e8-8e24-2daca0b6a665}</AppFeaturePartId>
+    <WspPartId>{839a8ee4-eb6d-4336-8322-5314476fd71c}</WspPartId>
+    <WorkflowPartId>{51cb7142-9807-4c40-8adf-7e587691d444}</WorkflowPartId>
+    <CspkgPartId>{4b39f734-37ac-47ca-80ad-a25c6296d224}</CspkgPartId>
+    <SqlPackagePartId>{09bdd94f-2bc5-428f-8936-abb0f0e4474d}</SqlPackagePartId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,26 +43,22 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Scripts\vendor.js" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8812259b-9181-491c-884e-c5cbb332a932}</SharePointProjectItemId>
+      <SharePointProjectItemId>{350ed645-9a2f-4a04-9e04-b50f2d0e2113}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{bda965a1-4c68-4395-a950-d9e818cd8e42}</SharePointProjectItemId>
+      <SharePointProjectItemId>{09bdd94f-2bc5-428f-8936-abb0f0e4474d}</SharePointProjectItemId>
     </None>
-    <Content Include="Scripts\1.counter.js" />
-    <Content Include="Scripts\app.css" />
-    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{716c2a51-20f7-41bc-b7bc-7e4c6ff3de37}</SharePointProjectItemId>
+      <SharePointProjectItemId>{12e52113-a2ef-455b-9cce-dc60908f2bc9}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
     <Content Include="Content\App.css" />
@@ -73,18 +69,18 @@
     </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{ede204e5-d7e6-47c1-8dc6-8a4bca0eb44c}</SharePointProjectItemId>
+      <SharePointProjectItemId>{8042924f-ae85-422e-8ff9-45b40017b4e4}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Package\Package.package">
-      <PackageId>{9b63db94-5882-4616-a4b1-4270cf6cc536}</PackageId>
+      <PackageId>{e57cb336-75b6-44ae-857c-78182d691300}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{3432972f-b2c5-4485-9ffe-0008824b052b}</FeatureId>
+      <FeatureId>{2d5cb2f6-e222-4a9f-ad20-d205bff36f8e}</FeatureId>
     </None>
     <None Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>

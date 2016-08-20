@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package dslVersion="1.0.0.0" 
-        Id="9b63db94-5882-4616-a4b1-4270cf6cc536" 
-        solutionId="9b63db94-5882-4616-a4b1-4270cf6cc536" 
+        Id="e57cb336-75b6-44ae-857c-78182d691300" 
+        solutionId="e57cb336-75b6-44ae-857c-78182d691300" 
         xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="PolicyManager"
+        name="RymanPolicies.AddIn"
         sharePointProductVersion="16.0">
   <features>
-        <featureReference itemId="3432972f-b2c5-4485-9ffe-0008824b052b" />
+        <featureReference itemId="2d5cb2f6-e222-4a9f-ad20-d205bff36f8e" />
   </features>
 </package>
